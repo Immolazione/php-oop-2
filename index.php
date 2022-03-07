@@ -15,10 +15,9 @@ require_once __DIR__ . '/includes/Product.php';
 require_once __DIR__ . '/includes/Costumer.php';
 require_once __DIR__ . '/includes/RegisteredCostumer.php';
 
+$cuccia = new Product('cuccia', 12,'cuccia bella', '12345', 'gatto');
 
+var_dump($cuccia);
 
-$cane = new Product('ssss', 1, 'a', 'a', 'cane');
-
-var_dump($cane);
 
 ?>

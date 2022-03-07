@@ -4,6 +4,7 @@ trait BankAccount {
     public $account_number;
     public $balance;
 
+
     //SETTERs
     public function setAccountNumber($account_number) {
         $this->account_number = $account_number;

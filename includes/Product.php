@@ -5,7 +5,6 @@ class Product {
     public $price;
     public $details;
     public $product_code;
-    public $animal;
 
 
     // GETTERs (prende il valore)
@@ -24,10 +23,6 @@ class Product {
     public function getProductCode($product_code) {
         return $this->price;
     }
-
-    public function getAnimal($animal) {
-        return $this->price;
-    }
     
     // SETTERs (setta il valore)
     public function setName($name){
@@ -39,7 +34,6 @@ class Product {
             return $this;
         } 
     }
-
 
     public function setPrice($price) {
         $this->price = $price;
@@ -55,12 +49,6 @@ class Product {
         $this->product_code = $product_code;
         return $this;
     }
-
-    public function setAnimal($animal) {
-        $this->animal = $animal;
-        return $this;
-    }
-
 
     public function __construct($name, $price, $details, $product_code, $animal){
         $this->setName($name);
