@@ -38,8 +38,4 @@ class RegisteredCostumer extends Costumer {
     }
 }
 
-$aa = new RegisteredCostumer('a', 'a', $registered, 'a', 'a');
-
-var_dump($aa);
-
 ?>

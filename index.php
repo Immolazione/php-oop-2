@@ -12,6 +12,8 @@ Il pagamento avviene con la carta di credito, che non deve essere scaduta.
 
 
 require_once __DIR__ . '/includes/Product.php';
+require_once __DIR__ . '/includes/Costumer.php';
+require_once __DIR__ . '/includes/RegisteredCostumer.php';
 
 
 
