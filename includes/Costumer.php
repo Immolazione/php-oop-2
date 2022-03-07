@@ -1,6 +1,11 @@
 <?php
 
+include_once __DIR__ . '/BankAccount.php';
+
 class Costumer {
+
+    use BankAccount;
+
     public $name;
     public $lastname;
     public $registered = false;
