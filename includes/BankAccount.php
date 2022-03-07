@@ -8,20 +8,18 @@ trait BankAccount {
     //SETTERs
     public function setAccountNumber($account_number) {
         $this->account_number = $account_number;
-        return $this;
     }
 
     public function setBalance($balance) {
         $this->balance = $balance;
-        return $this;
     }
 
     //GETTERs
-    public function getAccountNumber($account_number) {
+    public function getAccountNumber() {
         return $this->account_number;
     }
 
-    public function getBalance($balance) {
+    public function getBalance() {
         return $this->balance;
     }
 }

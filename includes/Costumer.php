@@ -19,29 +19,26 @@ class Costumer {
     //SETTERs
     public function setName($name) {
         $this->name = $name;
-        return $this;
     }
 
     public function setLastname($lastname) {
         $this->lastname = $lastname;
-        return $this;
     }
 
     public function setRegistered($registered) {
         $this->registered = $registered;
-        return $this;
     }
 
     //GETTERs
-    public function getName($name) {
+    public function getName() {
         return $this->name;
     }
 
-    public function getLastname($lastname) {
+    public function getLastname() {
         return $this->lastname;
     }
 
-    public function getRegistered($registered){
+    public function getRegistered(){
         return $this->registered;
     }
 

@@ -22,19 +22,17 @@ class RegisteredCostumer extends Costumer {
         return $this->email_address;
     }
 
-    public function getPassword($password) {
+    public function getPassword() {
         return $this->password;
     }
 
     //SETTERs
     public function setEmailAddress($email_address) {
         $this->email_address = $email_address;
-        return $this;
     }
 
     public function setPassword($password) {
         $this->password = $password;
-        return $this;
     }
 }
 
