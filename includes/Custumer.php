@@ -3,7 +3,7 @@
 class Costumer {
     public $name;
     public $lastname;
-    public $registered;
+    public $registered = false;
 
     public function __construct($name, $lastname, $registered) {
         $this->name = $name;
