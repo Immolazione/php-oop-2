@@ -3,7 +3,7 @@
 require_once __DIR__ . '/Costumer.php';
 
 class RegisteredCostumer extends Costumer {
-    public $registered = true;
+    public $registered = [];
     public $email_address;
     public $password;
 
@@ -23,7 +23,7 @@ class RegisteredCostumer extends Costumer {
     }
 
     //SETTERs
-    public function setEmail_Address($email_address) {
+    public function setEmailAddress($email_address) {
         $this->email_address = $email_address;
         return $this;
     }
@@ -33,5 +33,9 @@ class RegisteredCostumer extends Costumer {
         return $this;
     }
 }
+
+$aa = new RegisteredCostumer('a', 'a', $registered, 'a', 'a');
+
+var_dump($aa);
 
 ?>

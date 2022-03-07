@@ -21,7 +21,7 @@ class Product {
         return $this->price;
     }
 
-    public function getProduct_code($product_code) {
+    public function getProductCode($product_code) {
         return $this->price;
     }
 
